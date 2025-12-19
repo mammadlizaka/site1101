@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My Projects - Showcasing my work and achievements">
+    <title>Projects | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Portfolio</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="projects.html" class="nav-link active">Projects</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title fade-in-up">My Projects</h1>
+            <p class="page-subtitle fade-in-up">Explore my academic work and community involvement</p>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="projects-section">
+        <div class="container">
+            <div class="projects-grid">
+                <!-- Project 1 - Required -->
+                <div class="project-card glass-card fade-in-up" data-project="1">
+                    <div class="project-image-wrapper">
+                        <img src="assets/images/p1.jpeg" alt="Logic Gates Project" style="width: 100%; height: 250px; object-fit: cover; border-radius: 15px;">
+                        <div class="project-overlay">
+                            <a href="project1.html" class="project-link" aria-label="View Project 1">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                    <path d="M16 6L26 16L16 26M26 16H6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">Course Project</span>
+                        <h3 class="project-title">Project 1: Logic Gates</h3>
+                        <p class="project-description">
+                            An exploration of logic gates and their implementation using transistors. This project demonstrates how fundamental electronic components create the logical operations that power all digital devices, from simple calculators to complex computers.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Digital Logic</span>
+                            <span class="tech-tag">Circuit Design</span>
+                            <span class="tech-tag">Electronics</span>
+                            <span class="tech-tag">Transistors</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Hour of Code - Optional -->
+                <div class="project-card glass-card fade-in-up" data-project="2">
+                    <div class="project-image-wrapper">
+                        <img src="assets/images/p2.jpeg" alt="Hour of Code Project" style="width: 100%; height: 250px; object-fit: cover; border-radius: 15px;">
+                        <div class="project-overlay">
+                            <a href="project2.html" class="project-link" aria-label="View Hour of Code Project">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                    <path d="M16 6L26 16L16 26M26 16H6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">Volunteer</span>
+                        <h3 class="project-title">Hour of Code</h3>
+                        <p class="project-description">
+                            Volunteered in Hour of Code events, teaching programming fundamentals to students through hands-on coding activities. This experience reinforced my passion for technology while helping others discover their interest in computer science.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Education</span>
+                            <span class="tech-tag">Teaching</span>
+                            <span class="tech-tag">Community</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-card glass-card fade-in-up">
+                <h2>Want to Connect or Collaborate?</h2>
+                <p>I'm always open to discussing technology, sharing knowledge, or collaborating on interesting projects. Feel free to reach out if you have questions or ideas!</p>
+                <a href="contact.html" class="btn btn-primary">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Portfolio</h3>
+                    <p>SITE 1101: Principles of Information Systems</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/mammadlizaka" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.codecademy.com/profiles/ZakaMammadli" target="_blank" rel="noopener noreferrer" aria-label="Codecademy Profile">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23.827 19.729h-5.595c-.093 0-.168-.074-.168-.167v-4.923c0-.092.075-.167.168-.167h5.595c.092 0 .167.075.167.167v4.923c0 .093-.075.167-.167.167zm-5.447-.336h5.099v-4.59h-5.099v4.59zm-5.547 0h5.099v-9.262h-5.099v9.262zm-5.548 0h5.099v-4.823h-5.099v4.823zm.219-6.405h5.476c.092 0 .167-.074.167-.167V4.167c0-.092-.075-.167-.167-.167H6.964c-.093 0-.168.075-.168.167v8.614c0 .088.075.162.168.162zm5.257-.336H7.203V4.369h4.851v8.688zm-5.547-.179h5.099V4.167c0-.092-.075-.167-.167-.167H5.596c-.093 0-.168.075-.168.167v8.614c0 .093.075.167.168.167zm5.099-.336H5.763V4.369h4.927v8.322zm-5.548 0H5.37V8.703c0-.092-.075-.167-.167-.167H.608c-.093 0-.168.075-.168.167v11.525c0 .093.075.167.168.167h4.595c.092 0 .167-.074.167-.167v-4.24c0-.092.075-.167.168-.167h5.595c.093 0 .168-.075.168-.167V8.703c0-.092-.075-.167-.167-.167zm-5.203-.336h5.099v4.416H.808V8.903h5.099v3.927z"/>
+                            </svg>
+                        </a>
+                        <a href="https://github.com/mammadlizaka/site1101" target="_blank" rel="noopener noreferrer" aria-label="GitHub Repository">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Portfolio. All rights reserved. | SITE 1101 Course Project</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
